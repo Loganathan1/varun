@@ -12,7 +12,7 @@ int main()
     char string[100],c;
     int max[26] = {0},min[26]={0};
     int i=0,j,index,maxc=1,minc=100; 
-    for (i = 0; i < 26; i++)
+    for (i=0;i<26;i++)
     {
        s[i].c=i+'a';
        s[i].g=0;
